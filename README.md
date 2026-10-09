@@ -11,6 +11,14 @@ npm run dev
 
 Build with `npm run build`; production output is in `dist/`.
 
+## Deploy to GitHub Pages
+
+The `main` branch is built and deployed to GitHub Pages by the workflow in
+`.github/workflows/deploy.yml`. In the repository settings, set **Pages >
+Build and deployment > Source** to **GitHub Actions**. After the workflow
+completes, the site is available at
+https://codevenientlab.github.io/Gee-Travels/.
+
 ## Current functionality
 
 - Responsive desktop/mobile navigation, scroll-to-section links
